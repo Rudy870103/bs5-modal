@@ -410,7 +410,7 @@
         <div class="container-fluid mt-3" style="height: 2000px;">
           <h2>會員管理</h2>
           <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:</p>
-
+          <!-- modal -->
           </button>
           <div class="text-end">
             <button type="button" class="btn btn-outline-success mb-2" data-bs-toggle="modal" data-bs-target="#first">
@@ -421,11 +421,32 @@
             <div class="modal-dialog">
               <div class="modal-content ">
                 <div class="modal-header ">
-                  <h1 class="modal-title fs-5 " id="staticBackdropLabel">Modal title</h1>
+                  <h1 class="modal-title fs-5 " id="staticBackdropLabel">會員註冊</h1>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  ...
+                  <form action="">
+                    <div class="m-3 row">
+                      <div class="form-floating col-md-6 mb-3">
+                        <input type="text" class="form-control" id="name" placeholder="name">
+                        <label for="name" class="ms-2">名稱</label>
+                      </div>
+                      <div class="form-floating col-md-6 mb-3">
+                        <input type="text" class="form-control" id="phone" placeholder="phone">
+                        <label for="name" class="ms-2">電話</label>
+                      </div>
+                    </div>
+                    <div class="m-3 row">
+                      <div class="form-floating col-md-6 mb-3">
+                        <input type="text" class="form-control" id="name" placeholder="name">
+                        <label for="name" class="ms-2">信箱</label>
+                      </div>
+                      <div class="form-floating col-md-6 mb-3">
+                        <input type="password" class="form-control" id="name" placeholder="name">
+                        <label for="name" class="ms-2">密碼</label>
+                      </div>
+                    </div>
+                  </form>
                 </div>
                 <div class="modal-footer">
                   <input type="submit" class="btn btn-primary" data-bs-dismiss="modal">
@@ -433,7 +454,7 @@
               </div>
             </div>
           </div>
-
+          <!-- modal -->
           <table class="table table-hover text-center align-middle">
             <thead>
               <tr class="table-primary">
